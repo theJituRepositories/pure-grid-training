@@ -83,31 +83,31 @@ ul.magic {
   grid-row-gap: 30px;
   margin: 0 auto;
 }
-
-.grid-item1 {
-  background-image: url(./assets/images/image-web-3-desktop.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.grid-item-one {
   grid-column: 1/3;
   grid-row: 1;
+  background-image: url(./assets/images/image-web-3-desktop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.grid-item2 {
-  background-color: hsl(240, 100%, 5%);
-  color: white;
-  margin-top: -1%;
-  padding: 15px 18px;
-  text-align: start;
+
+.grid-item-two {
   grid-column: 3;
   grid-row: 1/3;
+  background-color: hsl(240, 100%, 5%);
+  color: white;
+  padding: 15px;
+  text-align: start;
 }
-.grid-item3 {
-  text-align: left;
+.grid-item-three {
   grid-column: 1;
   grid-row: 2;
-margin-top:-5%;
   color: hsl(240, 100%, 5%);
+  margin-top: -5%;
+  text-align: left;
 }
+
 
 .p1 {
   font-size: 55px;
@@ -129,20 +129,21 @@ margin-top:-5%;
   margin-top: -20px;
   letter-spacing: 2px;
 }
-.grid-item4 {
+.grid-item-four{
   grid-column: 2;
   grid-row: 2;
   padding: 1px 10px;
-  color: hsl(236, 13%, 42%);
+   color: hsl(236, 13%, 42%);
 }
+
 .p4 {
   font-size: 15px;
 
   line-height: 25px;
 }
 .read {
-  width: 200px;
-  height: 50px;
+  width: 180px;
+  height: 40px;
   margin-top: 18px;
   font-size: 20px;
   background-color: hsl(5, 85%, 63%);
@@ -154,18 +155,18 @@ margin-top:-5%;
   background-color: hsl(240, 100%, 5%);
   transition: 0.3s all;
 }
-.grid-item5 {
+.grid-item-five {
   grid-column: 1;
   grid-row: 3;
   display: flex;
 }
-.grid-item6 {
+.grid-item-six {
   grid-column: 2;
   grid-row: 3;
   display: flex;
   padding-left: 4px;
 }
-.grid-item7 {
+.grid-item-seven {
   grid-column: 3;
   grid-row: 3;
   display: flex;
@@ -254,7 +255,9 @@ hr {
   font-weight: 400;
   color: hsl(236, 13%, 42%);
 }
-
+.attribution {
+  text-align: center;
+}
 @media (max-width: 768px) {
   .check-btn {
     display: block;
